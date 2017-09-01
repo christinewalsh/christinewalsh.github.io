@@ -213,14 +213,21 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+   content: attr(title);
+  
 }
 
+.portfolio-item:hover{
+    opacity:1;
+}
 .img-portfolio {
     margin: 0 auto;
+   
 }
 
 .img-portfolio:hover {
     opacity: .8;
+ 
 }
 
 
